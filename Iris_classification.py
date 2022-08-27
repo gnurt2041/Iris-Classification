@@ -1,4 +1,4 @@
-# Project classification iris flower
+# Project iris flower classification 
 
 import numpy as np
 from sklearn import datasets
