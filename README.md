@@ -6,9 +6,11 @@ This is my first project to practice Machine Learning Algorithm. A iris flower c
 This data sets consists of 3 different types of irises’ (Setosa, Versicolour, and Virginica) petal and sepal length, stored in a 150x4 numpy.ndarray
 The rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length and Petal Width
 Three different types of irises:
-![alt text](https://github.com/ttrung14/Iris-Classification/blob/293073440a3d6512fac37309f5f5c2f3e090445d/image/Iris-Dataset-Classification.png?raw=true)
+
+![alt text](https://github.com/ttrung14/Iris-Classification/blob/293073440a3d6512fac37309f5f5c2f3e090445d/image/sphx_glr_plot_iris_dataset_001.png?raw=true)
 
 The plot of data:
+
 ![alt text](https://github.com/ttrung14/Iris-Classification/blob/293073440a3d6512fac37309f5f5c2f3e090445d/image/sphx_glr_plot_iris_dataset_001.png?raw=true)
 
 **Dataset link:** https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
