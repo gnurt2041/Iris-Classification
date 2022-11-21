@@ -1,8 +1,9 @@
-# Project iris flower classification 
+# Project classification iris flower
 
 import numpy as np
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 import time
 '''
 calculate the distance between 2 vector n dimension 
@@ -58,19 +59,15 @@ for index in range(np.max(iris.target)+1):
     #print(x[:5,:],i,'\n')
 
 # split the data_train and the data_test
-X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=50)
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=100)
 
 # predict the data_test
+y_pred = -np.ones_like(y_test)
 for index in range(len(y_test)):
     
-    print(y_test[index],end=' ')
-    
-print('\n')
-for index in range(len(y_test)):
-    
-    y_pred = predict(X_test[index], X_train, y_train)
-    print(y_pred,end=' ')
-    
+    y_pred[index] = predict(X_test[index], X_train, y_train)
+acc = accuracy_score(y_true=y_test,y_pred=y_pred)
+print("Accuracy: %d"%(acc*100))
 end_time = time.time()
 print ("Running time: %.2f (s)" % (end_time - start_time))
 #neighbor = find_neighbor(iris, iris.data[0],10)
