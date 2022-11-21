@@ -9,7 +9,7 @@ Three different types of irises:
 
 ![alt text](https://github.com/ttrung14/Iris-Classification/blob/293073440a3d6512fac37309f5f5c2f3e090445d/image/Iris-Dataset-Classification.png?raw=true)
 
-The plot of data:
+Plot the dataset:
 
 ![alt text](https://github.com/ttrung14/Iris-Classification/blob/293073440a3d6512fac37309f5f5c2f3e090445d/image/sphx_glr_plot_iris_dataset_001.png?raw=true)
 
