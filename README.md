@@ -11,7 +11,7 @@ Three different types of irises:
 
 Plot the dataset:
 
-![alt text](https://github.com/ttrung14/Iris-Classification/blob/293073440a3d6512fac37309f5f5c2f3e090445d/image/sphx_glr_plot_iris_dataset_001.png?raw=true)
+<img src = "https://github.com/ttrung14/Iris-Classification/blob/e1d29edb76f019c7daae1630cca1a8a278f3c3ac/image/iris_pca.png" width ="500" /> <img src = "https://github.com/ttrung14/Iris-Classification/blob/e1d29edb76f019c7daae1630cca1a8a278f3c3ac/image/iris_t-SNE.png" width ="500" />
 
 **Dataset link:** https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
 
@@ -20,7 +20,8 @@ Plot the dataset:
 **The directory structure:**
 ```
 Iris_Flower_Classification/
-    └── Iris_Flower_Classification.py
+    ├── Iris_Flower_Classification.py
+    └── plot.ipynb
 ```
 # Libraries
 
